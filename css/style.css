@@ -1,29 +1,102 @@
-h1{
-  border-color: #d3e644;
-  border-style: dashed;
+body {
+    background-color: rgb(95, 138, 230);
 }
 
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin-bottom: 20px;
+.box-background {
+    background-color: rgb(82, 95, 214);
+    padding: 10px;
 }
 
-th, td {
-  padding: 12px 15px;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
+.content-background {
+    background-color: rgb(15, 110, 218);
 }
 
-th {
-  background-color: #f2f2f2;
-  font-weight: bold;
+.heading {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
 
-tbody tr:nth-child(even) {
-  background-color: #f9f9f9;
+.heading h1 {
+    font-size: 250%;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-tbody tr:hover {
-  background-color: #e9e9e9;
+.title {
+    height: 50px;
+    width: auto;
+}
+
+.title-image {
+    height: 75px;
+    width: auto;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 6px;
+    margin-top: 1rem;
+    gap: 8rem;
+    background-color: rgb(15, 110, 218);
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.navigation li {
+    font-size: 150%;
+}
+
+.main-text {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.main-text h2 {
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main-text p {
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 1rem;
+}
+
+.welcome-text {
+    flex: 2;
+}
+
+.image-sidebar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 8px;
+}
+
+.image-sidebar a {
+    display: block;
+}
+
+.image-sidebar img {
+    width: 100%;
+    display: block;
+}
+
+.footer-text {
+    display: block;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.footer-text p {
+    font-style: italic;
+    font-size: 90%;
 }
