@@ -1,8 +1,7 @@
-# web-dev-starter
+# M4.2 Lab
 
-This is a starter project for web development with no frameworks and minimal
-dependencies. It is intended to be a starting point for web development projects
-that are written in plain HTML, CSS, and JavaScript.
+This is a simple html and css project for web development that focuses on improving css skills.
+The main focus of this lab is css styles.
 
 ## Getting Started
 
@@ -22,8 +21,9 @@ you do not need to setup a local server to run the project.
 
 ## Testing
 
-To run the tests for the project, run the following command:
+No tests for this project.
 
-```bash
-npm test
-```
+## Sources
+
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics
+ChatGPT for the photo section because I couln't get them to size down properly

@@ -1,34 +1,38 @@
 body {
-    background-color: rgb(95, 138, 230);
+    background-color: rgb(150, 150, 151);
+    margin: 0 4px;
 }
 
 .box-background {
-    background-color: rgb(82, 95, 214);
-    padding: 10px;
+    background-color: rgb(68, 190, 68);
+    padding: 10px 10px 0.1px 10px;
 }
 
 .content-background {
-    background-color: rgb(15, 110, 218);
+    background-color: rgb(73, 218, 15);
 }
 
 .heading {
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 1rem;
+    position: relative;
+    margin-top: 1rem;
 }
 
 .heading h1 {
+    font-family: 'Cinzel Decorative';
+    text-transform: uppercase;
     font-size: 250%;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.title {
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.37);
     height: 50px;
     width: auto;
+    margin: 0 auto;
+    text-align: center;
+    flex: 0 1 auto;
 }
 
-.title-image {
+.heading img {
     height: 75px;
     width: auto;
 }
@@ -37,10 +41,9 @@ body {
     list-style: none;
     display: flex;
     justify-content: center;
-    padding: 6px;
-    margin-top: 1rem;
-    gap: 8rem;
-    background-color: rgb(15, 110, 218);
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    gap: 5rem;
 }
 
 .navigation a {
@@ -50,24 +53,28 @@ body {
 }
 
 .navigation li {
+    font-family: 'Roboto Condensed';
+    text-transform: uppercase;
     font-size: 150%;
 }
 
 .main-text {
     display: flex;
-    gap: 2rem;
-    margin-top: 2rem;
+    gap: 1rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
 }
 
 .main-text h2 {
     text-align: center;
     font-size: 200%;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Cinzel Decorative';
+    word-break: break-all;
 }
 
 .main-text p {
     font-size: larger;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto Condensed';
     padding-left: 1rem;
 }
 
@@ -78,7 +85,9 @@ body {
 .image-sidebar {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 8px;
+    gap: 0;
+    width: 250px;
+    margin: 0;
 }
 
 .image-sidebar a {
@@ -87,16 +96,37 @@ body {
 
 .image-sidebar img {
     width: 100%;
-    display: block;
+    height: auto;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
 }
 
 .footer-text {
     display: block;
     gap: 2rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .footer-text p {
-    font-style: italic;
-    font-size: 90%;
+    font-family: 'Roboto Condensed';
+}
+
+aside.content-background {
+    padding: 0.5rem;
+}
+
+aside.content-background h2 {
+    margin: 0 0 0.5rem 0;
+    line-height: 1.2;
+    word-break: break-all;
+    white-space: pre-line;
+    display: block;
+}
+
+aside.content-background h2 {
+    text-align: center;
+}
+aside.content-background h2 span {
+    display: block;
 }
